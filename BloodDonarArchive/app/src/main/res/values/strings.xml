@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Blood Donar Archive</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_update_page">Update Info </string>
+
+    <string name="login_button">Login</string>
+    <string name="register_button">Register</string>
+    <string name="update_button">Update</string>
+    <string name="create_token_button">Create Token</string>
+
+
+    <string name="email_hint">Email</string>
+    <string name="password_hint">*******</string>
+    <string name="token_title_hint">Title</string>
+    <string name="token_descrip_hint">Description</string>
+    <string name="home">Home</string>
+    <string name="active_token">ActiveToken</string>
+    <string name="friends">Friends</string>
+    <string name="name_hint">Name</string>
+    <string name="address_hint">Address</string>
+    <string name="phone_hint">Phone</string>
+    <string name="blood_group_text">Blood Group</string>
+    <string name="age_hint">Age</string>
+    <string name="occupation_hint">Occupation</string>
+    <string name="hospital_name_hint">Hospital Name</string>
+    <string name="location_hint">Take Current Location</string>
+    <string name="add_location_hint">Location</string>
+
+
+    <string-array name="blood_group">
+
+        <item>Blood Group</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+
+    </string-array>
+
+    <string-array name="urgency">
+
+        <item>Select Urgency</item>
+        <item>Very Very Urgent</item>
+        <item>Very Urgent</item>
+        <item>Urgent</item>
+        <item>Not So Urgent</item>
+        <item>Not Immediately</item>
+
+    </string-array>
+
+    <string name="login_header">Enter Your Email And Passwrod</string>
+    <string name="register_header">Fill The Form Below</string>
+    <string name="update_profile_header">Update Your Profile Information</string>
+    <string name="token_create_header">Create A New Blood Request</string>
+    <string name="request_list_header">All Blood Requests</string>
+    <string name="active_token_header">My Active Token Lists</string>
+    <string name="facebook_friends_header">My Facebooks Friends</string>
+
+    <string name="title_example">Title Example</string>
+    <string name="description_example">Description Example</string>
+    <string name="blood_example">Blood</string>
+    <string name="hospital_name_example">Hospital Name Example</string>
+    <string name="urgency_example">Urgent</string>
+    <string name="creator_example">Creator Name Example</string>
+    <string name="date_example">9:29 PM Fri 19</string>
+
+
+
+</resources>

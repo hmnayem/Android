@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.game.string.blooddonararchive.CreateTokenActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        style="@style/ToolBarStyle"
+        android:id="@+id/top_toolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="4dp"
+        android:text="@string/token_create_header"
+        android:textColor="@android:color/black"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/create_token_title_edit_text"
+        android:background="@drawable/edit_text_style"
+        style="@style/EditTextBasicStyle"
+        android:hint="@string/token_title_hint"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/ic_title_black_24dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/create_token_description_edit_text"
+        android:background="@drawable/edit_text_style"
+        style="@style/EditTextBasicStyle"
+        android:hint="@string/token_descrip_hint"
+        android:maxLines="5"
+        android:minLines="3"
+        android:drawableLeft="@drawable/ic_description_black_24dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/create_token_hospital_name"
+        android:background="@drawable/edit_text_style"
+        style="@style/EditTextBasicStyle"
+        android:hint="@string/hospital_name_hint"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/ic_local_hospital_black_24dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/create_token_add_location"
+        android:background="@drawable/edit_text_style"
+        style="@style/EditTextBasicStyle"
+        android:hint="@string/add_location_hint"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/ic_add_location_black_24dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/EditTextBasicStyle"
+        android:text="@string/location_hint"
+        android:id="@+id/create_token_location_check_box"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        style="@style/EditTextBasicStyle">
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/create_token_blood_group_spinner"
+            >
+
+        </Spinner>
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/create_token_urgency_spinne">
+
+        </Spinner>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/create_token_subnmit_button"
+        style="@style/EditTextBasicStyle"
+        android:text="@string/create_token_button"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorText"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+
+
+</LinearLayout>

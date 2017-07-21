@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark">
+
+        <ImageView
+            android:id="@+id/landing_page_profile_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/image_background"
+            android:src="@drawable/default_profile" />
+
+        <TextView
+            android:id="@+id/landing_page_profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:text="Name Of User"
+            android:textColor="@color/colorText"
+            android:textSize="16sp"
+            android:layout_alignTop="@+id/landing_page_profile_image"
+            android:layout_toRightOf="@+id/landing_page_profile_image"
+            android:layout_toEndOf="@+id/landing_page_profile_image"
+            android:layout_marginTop="14dp" />
+
+        <TextView
+            android:id="@+id/landing_page_profile_blood_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blood Group : Blood"
+            android:textColor="@color/colorText"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/landing_page_profile_name"
+            android:layout_alignStart="@+id/landing_page_profile_name" />
+
+        <Switch
+            android:id="@+id/landing_page_profile_status_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status   "
+            android:textColor="@color/colorText"
+            android:textSize="16sp"
+            android:layout_alignBottom="@+id/landing_page_profile_image"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/request_list_header"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"/>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/request_token_list"
+        android:cacheColorHint="#00000000"
+        android:dividerHeight="20dp">
+
+    </ListView>
+
+</LinearLayout>

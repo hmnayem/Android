@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.game.string.blooddonararchive.UpdateActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        style="@style/ToolBarStyle"
+        android:id="@+id/top_toolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <ImageButton
+            android:id="@+id/update_image_button"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/default_profile"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="4dp"
+                android:text="@string/register_header"
+                android:textColor="@android:color/black"
+                android:gravity="center_horizontal"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/update_name_edit_text"
+                android:background="@drawable/edit_text_style"
+                style="@style/EditTextBasicStyle"
+                android:hint="@string/name_hint"
+                android:maxLines="1"
+                android:drawableLeft="@drawable/ic_account_box_black_24dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/update_email_edit_text"
+                android:background="@drawable/edit_text_style"
+                style="@style/EditTextBasicStyle"
+                android:hint="@string/email_hint"
+                android:maxLines="1"
+                android:drawableLeft="@drawable/ic_email_black_24dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/update_address_edit_text"
+                android:background="@drawable/edit_text_style"
+                style="@style/EditTextBasicStyle"
+                android:hint="@string/address_hint"
+                android:maxLines="1"
+                android:drawableLeft="@drawable/ic_import_contacts_black_24dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/update_phone_edit_text"
+                android:background="@drawable/edit_text_style"
+                style="@style/EditTextBasicStyle"
+                android:hint="@string/phone_hint"
+                android:maxLines="1"
+                android:drawableLeft="@drawable/ic_phone_black_24dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/update_occupation_edit_text"
+                android:background="@drawable/edit_text_style"
+                style="@style/EditTextBasicStyle"
+                android:hint="@string/occupation_hint"
+                android:maxLines="1"
+                android:drawableLeft="@drawable/ic_rowing_black_24dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/update_age_edit_text"
+                android:background="@drawable/edit_text_style"
+                style="@style/EditTextBasicStyle"
+                android:hint="@string/age_hint"
+                android:maxLines="1"
+                android:drawableLeft="@drawable/ic_group_work_black_24dp"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:padding="8dp"
+                android:id="@+id/update_blood_group__spinner">
+
+
+            </Spinner>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/EditTextBasicStyle"
+                android:text="@string/update_button"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/colorText"
+                android:textSize="16sp"
+                android:id="@+id/update_submit_button"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">String Game</string>
+
+    <string-array name="words">
+
+        <item>java</item>
+        <item>word</item>
+        <item>class</item>
+        <item>make</item>
+        <item>method</item>
+        <item>thin</item>
+        <item>take</item>
+        <item>keep</item>
+        <item>run</item>
+        <item>left</item>
+        <item>swap</item>
+        <item>read</item>
+        <item>logic</item>
+        <item>like</item>
+        <item>share</item>
+        <item>fish</item>
+        <item>prize</item>
+        <item>june</item>
+        <item>apple</item>
+        <item>google</item>
+        <item>snake</item>
+        <item>smart</item>
+        <item>look</item>
+        <item>nokia</item>
+        <item>linux</item>
+        <item>fedora</item>
+        <item>game</item>
+        <item>viber</item>
+        <item>time</item>
+        <item>ask</item>
+        <item>total</item>
+        <item>score</item>
+        <item>view</item>
+        <item>image</item>
+        <item>table</item>
+        <item>mobile</item>
+        <item>apps</item>
+        <item>mango</item>
+
+
+    </string-array>
+</resources>

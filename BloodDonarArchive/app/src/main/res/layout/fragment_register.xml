@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="4dp"
+        android:text="@string/register_header"
+        android:textColor="@android:color/black"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_fragment_name_edit_text"
+        android:background="@drawable/edit_text_style"
+        style="@style/EditTextBasicStyle"
+        android:hint="@string/name_hint"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/ic_account_box_black_24dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_fragment_email_edit_text"
+        android:background="@drawable/edit_text_style"
+        style="@style/EditTextBasicStyle"
+        android:hint="@string/email_hint"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/ic_email_black_24dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_fragment_address_edit_text"
+        android:background="@drawable/edit_text_style"
+        style="@style/EditTextBasicStyle"
+        android:hint="@string/address_hint"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/ic_import_contacts_black_24dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_fragment_phone_edit_text"
+        android:background="@drawable/edit_text_style"
+        style="@style/EditTextBasicStyle"
+        android:hint="@string/phone_hint"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:padding="8dp"
+        android:id="@+id/register_fragment_blood_spinner">
+
+
+    </Spinner>
+
+    <EditText
+        android:id="@+id/register_fragment_password_edit_text"
+        style="@style/EditTextBasicStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_style"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:hint="@string/password_hint"
+        android:isScrollContainer="true"
+        android:maxLines="1"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/register_fragment_submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/EditTextBasicStyle"
+        android:text="@string/register_button"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorText"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+</LinearLayout>

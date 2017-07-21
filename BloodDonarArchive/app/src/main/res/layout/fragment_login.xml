@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:text="@string/login_header"
+        android:textColor="@android:color/black"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_fragment_email_edit_text"
+        android:background="@drawable/edit_text_style"
+        style="@style/EditTextBasicStyle"
+        android:hint="@string/email_hint"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/ic_email_black_24dp"/>
+
+    <EditText
+        android:id="@+id/login_fragment_password_edit_text"
+        style="@style/EditTextBasicStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_style"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:hint="@string/password_hint"
+        android:isScrollContainer="true"
+        android:maxLines="1"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login_fragment_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/EditTextBasicStyle"
+        android:text="@string/login_button"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorText"
+        android:textSize="16sp"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/EditTextBasicStyle"
+        android:id="@+id/google_sign_in_button">
+
+    </com.google.android.gms.common.SignInButton>
+
+
+</LinearLayout>
